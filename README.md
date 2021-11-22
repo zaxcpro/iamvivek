@@ -8,7 +8,10 @@ Once done with the process using this function getAssociatedProducts()
 
 **$children = $product->getTypeInstance()->getAssociatedProducts($product);**
 
-foreach($children as $child){ echo '<pre/>'; print_R($child->getData()); }
+>foreach($children as $child){ 
+>echo '<pre/>'; 
+>print_R($child->getData());
+>}
 
 In the getData function you will get the data in Collection.
 
